@@ -4,35 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karkulačka</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
-    <header class="App-header">
-        <div class="container">
-          <div id="calculator" class="grid">
-            <div id="secondaryDisplay" style="color: white" class="dis1"></div>
-            <div id="display" style="color: white" class="dis"></div>          
-            <div onClick="clearDisplay()" id="clear"  class="padButton AC red">AC</div>
-            <div onClick="updateDisplay('divide')" id="divide"  class="padButton div" >/</div>
-            <div onClick="updateDisplay('multiply')" id="multiply"  class="padButton times">x</div>
-            <div onClick="updateDisplay(7)" id="seven"  class="padButton seven dark-gray">7</div>
-            <div onClick="updateDisplay(8)" id="eight"  class="padButton eight dark-gray">8</div>
-            <div onClick="updateDisplay(9)" id="nine"  class="padButton nine dark-gray">9</div>
-            <div onClick="updateDisplay('subtract')" id="subtract"  class="padButton minus">-</div>
-            <div onClick="updateDisplay(4)" id="four"  class="padButton four dark-gray">4</div>
-            <div onClick="updateDisplay(5)" id="five"  class="padButton five dark-gray">5</div>
-            <div onClick="updateDisplay(6)" id="six"  class="padButton six dark-gray">6</div>
-            <div onClick="updateDisplay('add')" id="add"  class="padButton plus">+</div>
-            <div onClick="updateDisplay(1)" id="one"  class="padButton one dark-gray">1</div>
-            <div onClick="updateDisplay(2)" id="two"  class="padButton two dark-gray">2</div>
-            <div onClick="updateDisplay(3)" id="three"  class="padButton three dark-gray">3</div>
-            <div onClick="updateDisplay('equals')" id="equals"  class="padButton equal blue">=</div>
-            <div onClick="updateDisplay(0)" id="zero"  class="padButton zero-class dark-gray">0</div>
-            <div onClick="updateDisplay('decimal')" id="decimal"  class="padButton dot dark-gray">.</div>
-          </div>
+    <div class="controls">
+        <button onclick="myFunction()">Nová hra</button>
+        <button onclick="myFunction()">Restart</button>
+    </div>
+</div>
+<div class="karta">
+    <div class="predni">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEWRmaFa+U0wAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC" alt="Obrázek 1" height="">
+    </div>
+    <div class="zadni">
+    </div>
+  </div>
+
+    <div class="cards">
+        <div class="card">
+            <img src="https://skolakov.eu/prvouka/2-trida/podzim-v-prirode/druhy-zeleniny/mrkev.jpg" alt="Obrázek 1" height="100px">
         </div>
-      </header>
+        <div class="card">
+            <img src="https://www.receptyonline.cz/data/pics/encyklopedie-zeleniny/lilek3.jpg" alt="Obrázek 2" height="100px">
+        </div>
+        <div class="card">
+            <img src="https://skolakov.eu/prvouka/2-trida/podzim-v-prirode/druhy-zeleniny/mrkev.jpg" alt="Obrázek 3" height="100px">
+        </div>
+        <div class="card">
+            <img src="https://www.receptyonline.cz/data/pics/encyklopedie-zeleniny/lilek3.jpg" alt="Obrázek 4" height="100px">
+        </div>
+        <div class="card">
+            <img src="https://eshop.sklizeno.cz/data/images/product/498x498/400/400762_1.jpg?-62167222664" alt="Obrázek 5" height="100px">
+        </div>
+        <div class="card">
+            <img src="https://www.koba-zahrada.cz/assets/image/2668-size4.jpg" alt="Obrázek 6" height="100px">
+        </div>
+        <div class="card">
+            <img src="https://w.ld-g.net/20151027/j/21/219595590a60ad0.jpg" alt="Obrázek 7" height="75px">
+        </div>
+        <div class="card">
+            <img src="https://eshop.sklizeno.cz/data/images/product/498x498/400/400762_1.jpg?-62167222664" alt="Obrázek 8" height="100px">
+        </div>
+        <div class="card">
+            <img src="https://w.ld-g.net/20151027/j/21/219595590a60ad0.jpg" alt="Obrázek 9" height="75px" >
+        </div>
+        <div class="card">
+            <img src="https://www.koba-zahrada.cz/assets/image/2668-size4.jpg" alt="Obrázek 10" height="100px">
+        </div>
+    </div>
+</div>
+    
 </body>
 </html>
