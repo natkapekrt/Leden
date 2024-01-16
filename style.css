@@ -2,7 +2,6 @@
     width: 500px;
     margin: 0 auto;
 }
- 
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -15,7 +14,7 @@
     width: 100px;
     height: 100px;
     margin: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(216, 8, 8);
 }
  
 .card:hover {
@@ -29,3 +28,4 @@
   .karta.zadni {
     transform: rotate(180deg);
   }
+  
